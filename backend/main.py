@@ -2,7 +2,7 @@ from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 import json
 
-app = FastAPI(title=\"UrbanSentinel API Broker\")
+app = FastAPI(title="UrbanSentinel API Broker")
 
 # Allow CORS for dashboard
 app.add_middleware(
